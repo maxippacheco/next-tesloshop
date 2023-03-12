@@ -71,6 +71,8 @@ const registerUser = async(req: NextApiRequest, res: NextApiResponse<Data>) => {
 	})
 
 
+	
+
 	try {
 
 		// que valide antes de insertarlo

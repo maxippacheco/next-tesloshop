@@ -8,7 +8,6 @@ import { Grid, Box, Typography, TextField, Button, Link, Chip } from '@mui/mater
 import { useForm } from 'react-hook-form';
 import { AuthLayout } from '../../components/layouts'
 import { validations } from '../../utils';
-import { tesloApi } from '../../api';
 import { AuthContext } from '../../context';
 
 
