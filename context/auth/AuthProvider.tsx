@@ -8,7 +8,7 @@ import Cookies from 'js-cookie';
 import axios, { AxiosError } from 'axios';
 import { IUser } from '../../interfaces';
 import { authReducer, AuthContext } from './';
-import { tesloApi } from '../../api';
+import { tesloApi } from '../../axiosApi';
 
 interface FCProps{
  children: React.ReactNode;

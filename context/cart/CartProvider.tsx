@@ -4,7 +4,7 @@ import Cookie from 'js-cookie'
 import { ICartProduct, IOrder, ShippingAdress } from '../../interfaces';
 import { cartReducer, CartContext } from './';
 import Cookies from 'js-cookie';
-import { tesloApi } from '../../api';
+import { tesloApi } from '../../axiosApi';
 import axios, { AxiosError } from 'axios';
 
 interface FCProps{
